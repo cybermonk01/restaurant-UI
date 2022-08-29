@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.logo {
+  position: absolute;
+  top: 30px;
+  left: 70px;
+  margin-bottom: 720px;
+}
+
+.list {
+  position: absolute;
+  left: 460px;
+  top: 10px;
+  color: rgb(255, 194, 51);
+}
+.list-item {
+  font-weight: bold;
+
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 40px;
+  margin-top: 40px;
+  justify-content: stretch;
+
+  height: 40px;
+  width: 100px;
+
+  vertical-align: top;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.button-small {
+  position: absolute;
+  right: 80px;
+  top: 40px;
+  font-size: 18px;
+
+  background-color: rgb(255, 80, 95);
+  color: white;
+  border: none;
+  padding: 10px 40px;
+}
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+.hero_image {
+  position: absolute;
+  top: 0;
+  filter: sepia(70%) saturate(30%) brightness(30%) hue-rotate(330deg);
+  z-index: -1; /* The image used */
+  background-color: #3a4399; /* Used if the image is unavailable */
+  height: 100%;
+  width: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.hero-heading {
+  font-size: 120px;
+  color: rgb(255, 194, 51);
+  position: absolute;
+  top: 180px;
+  left: 250px;
+  text-align: center;
+  font-stretch: extra-expanded;
+  align-items: center;
+  display: inline-block;
+}
+
+.button-large {
+  position: absolute;
+  top: 650px;
+
+  left: 620px;
+  font-size: 24px;
+
+  background-color: rgb(255, 80, 95);
+  color: white;
+  border: none;
+  padding: 20px 60px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
